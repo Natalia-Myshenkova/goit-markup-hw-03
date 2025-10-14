@@ -68,7 +68,7 @@ button {
  
 }
 
-.header-contacts {
+.header-contsct-info {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -77,11 +77,11 @@ button {
   color: #434455;
 }
 
-.header-contacts:hover {
+.header-contsct-info:hover {
   color: #404bbf;
 }
 
-.header-contacts:focus {
+.header-contsct-info:focus {
   color: #404bbf;
 }
 
@@ -91,6 +91,7 @@ button {
 
 .service-button {
   color: #fff;
+  background-color: #4D5AE5;
   font-weight: 500 ;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -120,6 +121,10 @@ button {
   letter-spacing: 0.02em;
 }
 
+.team-section {
+  background-color: #F4F4FD;
+}
+
 .team-group-list {
   background-color: #FFFFFF;
 }
@@ -143,6 +148,7 @@ button {
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 
 .portfolio-text {
