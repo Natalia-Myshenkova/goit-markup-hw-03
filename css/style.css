@@ -1,13 +1,119 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;;
+  color: #434455;
   background-color: white;
+  line-height: 1.5;
 }
 
 a {
   text-decoration: none;
 }
 
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  color: #fff;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  color: #2e2f42;
+}
+
 ul, ol {
   list-style-type: none;
+}
+
+
+button {
+  cursor: pointer;
+}
+
+.header-menu a{
+  font-weight: 500;
+  font-size: 16px;
+  color: #2e2f42;
+}
+
+
+.header-menu a:hover {
+  color: #404bbf;
+}
+
+.header-menu a:active{
+  color: #404bbf;
+  border-bottom: 2px solid #404bbf;
+  padding-bottom: 20px;
+}
+
+.header-contacts a {
+  font-family: "Roboto", sans-serif;;
+  font-weight: 400;
+  font-size: 16px;
+  color: #434455;
+}
+
+.header-contacts a:hover {
+  color: #404bbf;
+}
+
+.first-section-color {
+  background-color: #2e2f42;
+}
+
+.service-button {
+  color: #fff;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  padding: 16px 32px;
+  border: none;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  font-family: "Roboto", sans-serif;
+}
+
+.service-button:hover {
+  background: #404bbf;
+}
+
+.services-title {
+  font-weight: 500;
+  font-size: 20px;
+  color: #2e2f42;
+}
+
+.services-text {
+  font-size: 16px;
+  color: #434455;
+}
+
+.team-group-title {
+  font-weight: 500;
+  font-size: 20px;
+  color: #2e2f42;
+  line-height: 1.2;
+}
+
+.team-group-text {
+  font-size: 16px;
+  color: #434455;
+}
+
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  color: #434455;
+  line-height: 1.5;
+}
+
+.footer-text {
+  font-size: 16px;
+  color: #f4f4fd;
+  line-height: 1.5;
 }
