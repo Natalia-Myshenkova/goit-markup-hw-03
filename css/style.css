@@ -47,8 +47,12 @@ button {
   color: #4d5ae5;
 }
 
-.path-of-logo span{
+.path-of-logo-header {
   color: #2e2f42;
+}
+
+.path-of-logo-footer {
+  color: #f4f4fd;
 }
 
 .header-list {
