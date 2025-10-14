@@ -9,14 +9,21 @@ a {
   text-decoration: none;
 }
 
-h1 {
+.first-title {
   font-weight: 700;
   font-size: 56px;
   color: #fff;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em
 }
 
-h2 {
+.team-title {
   font-weight: 700;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   font-size: 36px;
   color: #2e2f42;
 }
@@ -30,31 +37,51 @@ button {
   cursor: pointer;
 }
 
-.header-menu a{
-  font-weight: 500;
-  font-size: 16px;
+.logo {
+  font-family:"Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px ;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.path-of-logo {
   color: #2e2f42;
 }
 
+.header-list {
+  font-weight: 500;
+  font-size: 16px;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
 
-.header-menu a:hover {
+}
+
+.header-list:hover {
   color: #404bbf;
 }
 
-.header-menu a:active{
+.header-list:focus{
   color: #404bbf;
-  border-bottom: 2px solid #404bbf;
-  padding-bottom: 20px;
+ 
 }
 
-.header-contacts a {
-  font-family: "Roboto", sans-serif;;
+.header-contacts {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
-.header-contacts a:hover {
+.header-contacts:hover {
+  color: #404bbf;
+}
+
+.header-contacts:focus {
   color: #404bbf;
 }
 
@@ -64,15 +91,17 @@ button {
 
 .service-button {
   color: #fff;
-  background-color: #4d5ae5;
-  border-radius: 4px;
-  padding: 16px 32px;
-  border: none;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  font-family: "Roboto", sans-serif;
+  font-weight: 500 ;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  
 }
 
 .service-button:hover {
+  background: #404bbf;
+}
+
+.service-button:focus {
   background: #404bbf;
 }
 
@@ -80,11 +109,19 @@ button {
   font-weight: 500;
   font-size: 20px;
   color: #2e2f42;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
 }
 
 .services-text {
   font-size: 16px;
   color: #434455;
+  letter-spacing: 0.02em;
+}
+
+.team-group-list {
+  background-color: #FFFFFF;
 }
 
 .team-group-title {
@@ -92,10 +129,12 @@ button {
   font-size: 20px;
   color: #2e2f42;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .team-group-text {
   font-size: 16px;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -110,10 +149,16 @@ button {
   font-size: 16px;
   color: #434455;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .footer-text {
   font-size: 16px;
   color: #f4f4fd;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.footer-block {
+  background-color: #2e2f42;
 }
