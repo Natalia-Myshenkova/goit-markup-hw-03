@@ -48,7 +48,7 @@ button {
 }
 
 .path-of-logo {
-  color: #2e2f42;
+  color: #f4f4fd;
 }
 
 .header-list {
@@ -66,6 +66,10 @@ button {
 .header-list:focus{
   color: #404bbf;
  
+}
+
+address {
+  font-style: normal;
 }
 
 .header-contsct-info {
@@ -150,6 +154,7 @@ button {
   color: #2e2f42;
   letter-spacing: 0.02em;
 }
+
 
 .portfolio-text {
   font-size: 16px;
