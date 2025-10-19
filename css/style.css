@@ -54,7 +54,7 @@ a {
 .container {
   width: 100%;
   max-width: 1158px;
-  padding: 0 15px 0 15px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -231,7 +231,7 @@ address {
   background-color: #F4F4FD;
 }
 
-.team-section .container {
+.portfolio-section .container {
   border-top: none; 
 }
 
