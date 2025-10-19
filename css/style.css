@@ -196,7 +196,7 @@ address {
   gap: 24px;
 }
 
-li.service-item {
+.service-item {
   width: calc((100% - 72px) / 4);
 }
 
