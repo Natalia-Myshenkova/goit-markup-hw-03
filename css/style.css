@@ -62,7 +62,6 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 15px;
 }
 
 .header-navigation {
@@ -229,10 +228,6 @@ address {
 
 .team-section {
   background-color: #F4F4FD;
-}
-
-.portfolio-section .container {
-  border-top: none; 
 }
 
 .team-group {
