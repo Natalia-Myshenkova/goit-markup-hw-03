@@ -12,69 +12,10 @@ body {
   margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-.site-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header-content {
-  border-bottom: 1px solid #e7e9fc;
-}
-
-.header-navigation {
-  display: flex;
-  align-items: center;
-}
-
-.header-menu {
-  display: flex;
-  flex-direction: row;
-}
-
-.header-menu li {
-  margin-right: 40px;
-}
-.header-menu li:last-child {
-  margin-right: 0; 
-}
-
-
-.header-contacts-list {
-  display: flex;
-}
-
-.header-contacts-list li {
-  margin-right: 40px;
-}
-.header-contacts-list li:last-child {
-  margin-right: 0; 
-}
-
-.logo {
-  font-family:"Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px ;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  margin-right: 76px;
-}
-
-
 ul, ol {
-  list-style-type: none;
+  list-style: none;
+  padding: 0;
   margin: 0;
-  padding-left: 0;
 }
 
 li {
@@ -88,15 +29,6 @@ img {
   height: auto;
 }
 
-.container {
-  width: 100%;
-  max-width: 1158px; 
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 section{
   padding-top: 120px;
   padding-bottom: 120px;
@@ -107,23 +39,51 @@ button {
   cursor: pointer;
 }
 
-.path-of-logo-header {
-  color: #2e2f42;
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
 }
 
-.path-of-logo-footer {
-  color: #f4f4fd;
+a {
+  text-decoration: none;
+}
+
+.header-content {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.container {
+  width: 100%;
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .site-header {
-  background-color: #fff; 
-  padding: 20px 0;
-}
-
-.site-header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 0;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-family:"Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px ;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-right: 76px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 40px;
 }
 
 .header-list {
@@ -134,17 +94,14 @@ button {
   padding: 24px 0;
 }
 
-.header-list:hover {
+.header-list:hover,
+.header-list:focus {
   color: #404bbf;
 }
 
-.header-list:focus{
-  color: #404bbf;
- 
-}
-
-address {
-  font-style: normal;
+.header-contacts-list {
+  display: flex;
+  gap: 40px;
 }
 
 .header-contact-info {
@@ -156,12 +113,21 @@ address {
   color: #434455;
 }
 
-.header-contact-info:hover {
+.header-contact-info:hover,
+.header-contact-info:focus {
   color: #404bbf;
 }
 
-.header-contact-info:focus {
-  color: #404bbf;
+.path-of-logo-header {
+  color: #2e2f42;
+}
+
+.path-of-logo-footer {
+  color: #f4f4fd;
+}
+
+address {
+  font-style: normal;
 }
 
 .first-section-color {
