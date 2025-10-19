@@ -62,7 +62,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: 20px 15px;
 }
 
 .header-navigation {
@@ -276,6 +276,7 @@ address {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
+  border-top: none; 
 }
 
 .portfolio-group {
