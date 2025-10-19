@@ -272,6 +272,7 @@ address {
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   border-top: none; 
+  padding: 32px 16px;
 }
 
 .portfolio-group {
