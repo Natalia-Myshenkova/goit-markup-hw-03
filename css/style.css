@@ -73,6 +73,11 @@ img {
   margin-right: auto;
 }
 
+section{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 
 button {
   cursor: pointer;
@@ -182,9 +187,19 @@ address {
   background: #404bbf;
 }
 
-.dont-see {
-  display: block;
-}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  }
+  
 
 .service-list {
   display: flex;
@@ -192,8 +207,6 @@ address {
   text-align: left;
   align-items: center;
   gap: 24px;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .service-list li {
@@ -227,7 +240,6 @@ address {
   text-transform: capitalize;
   font-size: 36px;
   color: #2e2f42;
-  padding-top: 120px;
   padding-bottom: 72px;
 }
 
@@ -235,8 +247,7 @@ address {
   background-color: #F4F4FD;
 }
 .team-group {
-  width: 100%;
-  height: 600px;               
+  width: 100%;              
   display: flex;                         
   justify-content: space-between; 
   text-align: center;
@@ -277,7 +288,6 @@ background: #fff;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  padding-bottom: 120px;
 }
 
 .portfolio-title {
