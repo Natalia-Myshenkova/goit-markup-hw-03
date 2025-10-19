@@ -307,12 +307,6 @@ address {
   letter-spacing: 0.02em;
 }
 
-.portfolio-info-border {
-  border: 1px solid #e7e9fc;
-  padding: 32px 16px; 
-  border-bottom: 1px solid #e7e9fc;
-}
-
 .footer-block {
   background-color: #2e2f42;
   padding: 100px 0;
