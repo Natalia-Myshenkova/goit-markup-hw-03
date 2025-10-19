@@ -54,7 +54,7 @@ a {
 .container {
   width: 100%;
   max-width: 1158px;
-  padding: 0 15px;
+  padding: 0 15px 0 15px;
   margin: 0 auto;
 }
 
@@ -70,7 +70,7 @@ a {
   align-items: center;
 }
 
-.logo {
+.logo-heder {
   font-family:"Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px ;
@@ -166,7 +166,7 @@ address {
   border-radius: 4px;
   border: none;
   padding: 16px 32px;
-  min-width: 169pxж
+  min-width: 169px;
 }
 
 .service-button:hover {
@@ -196,8 +196,8 @@ address {
   gap: 24px;
 }
 
-.service-list li {
-  width: calc((100% - 3 * 24px) / 4); 
+.service-item {
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .services-title {
@@ -206,7 +206,7 @@ address {
   color: #2e2f42;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .services-text {
@@ -230,6 +230,11 @@ address {
 .team-section {
   background-color: #F4F4FD;
 }
+
+.team-section .container {
+  border-top: none; 
+}
+
 .team-group {
   width: 100%;              
   display: flex;                         
@@ -312,28 +317,35 @@ address {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.footer-text {
-  font-size: 16px;
-  color: #f4f4fd;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  min-width: 264px;
-}
-
 .footer-block {
   background-color: #2e2f42;
   padding: 100px 0;
-
 }
 
 .footer-info {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  align-items: start;
+  align-items: flex-start; 
 }
 
-.footer-info .logo {
-  display: inline-block;  
+
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  display: inline-block; 
   margin-bottom: 16px;   
+}
+
+.footer-text {
+  font-size: 16px;
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  max-width: 264px; 
 }
